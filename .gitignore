@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore course provided materials
+Module 0 - Course Introduction/*
+Build a Character AI Chatbot Using OpenAI API.ipynb
