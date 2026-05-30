@@ -4,4 +4,4 @@ Repo will contain my own work as I go through https://www.udemy.com/course/becom
 
 I am using different setup than what the course recommended
 
-Since it is not cool to post the course materials directly, I will only post READMEs and my own homeworks for each modules
+Since it is not cool to post the course materials they provide, I will only post READMEs of high level learnings, notable difficulties with setup, etc and my own homework solutions for each modules, if applicable

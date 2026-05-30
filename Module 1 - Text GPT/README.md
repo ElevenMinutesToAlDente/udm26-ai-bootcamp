@@ -1,14 +1,16 @@
 ## Module 1 notes
 
-Module consisted of setting up anaconda environment with Jupyter notebook. However for my own homes setup, I use headless linux dev environment so I created equivalent environment using `uv` and `venv`
+Module consisted of setting up anaconda environment with Jupyter notebook. However for my own home setup, I use headless linux dev environment, so I created an equivalent environment using `uv` and `venv`
 
-I like to ssh tunnel to the machine from my laptop. Doing so is trivial
+I like to ssh tunnel to the linux machine from my laptop. Doing so is trivial
 
 ```bash
 uv run jupyter lab --no-browser --port=8888
 ```
 
-Can access the notebook from browser like so
+This runs a notebook server, then I use tools like vscode ssh port forwarding feature for tunneling.
+
+Then can access the notebook from browser
 
 The course requires you to make an OpenAI account and create an API token, but OpenAI free tier no longer provides free tier API tokens. So I briefly explored using groq free tier API tokens running open source models like llama. Good thing about this is it is compatible with python openai package and its client. 
 
